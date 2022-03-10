@@ -1,1 +1,5 @@
-##Ignore files \n~\n
+##Ignore files
+
+# Emacs files
+*~
+
