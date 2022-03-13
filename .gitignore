@@ -3,3 +3,7 @@
 # Emacs files
 *~
 
+# Executables
+*.exe
+
+
