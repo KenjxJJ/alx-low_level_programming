@@ -18,11 +18,11 @@ int main(void)
 	last_digit = n%10;
 	  
 	if (last_digit > 5)
-	  strcpy(str, "and is greater than 5");
+	  strcpy(str, "is greater than 5");
 	else if(last_digit == 0)
-	  strcpy(str,"and is 0");
+	  strcpy(str,"is 0");
 	else
-	  strcpy(str,"and is less than 6 and not 0");
+	  strcpy(str,"is less than 6 and not 0");
 	
 	printf("Last digit of %d is %d and %s\n", n, last_digit, str );
 	return (0);
