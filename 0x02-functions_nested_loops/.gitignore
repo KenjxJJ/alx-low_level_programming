@@ -1,0 +1,11 @@
+## Exclude files
+
+# Local main.c (TESTING PURPOSES
+
+main.c
+
+# Emacs files
+*~
+
+# Compiled executables
+*.exe
