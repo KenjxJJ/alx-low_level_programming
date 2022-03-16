@@ -4,7 +4,7 @@
  */
 void display_putchar(void)
 {
-	char[]c = "_putchar";
+	char c[] = "_putchar";
 
 	while(c != '')
 	{
