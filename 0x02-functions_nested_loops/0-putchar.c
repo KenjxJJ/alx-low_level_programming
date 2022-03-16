@@ -4,5 +4,11 @@
  */
 void display_putchar(void)
 {
-     _putchar()
+	char[]c = "_putchar";
+
+	while(c != '')
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
