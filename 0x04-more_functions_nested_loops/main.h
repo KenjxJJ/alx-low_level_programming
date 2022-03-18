@@ -1,4 +1,4 @@
-#include "_putchar.c";
+#include "_putchar.c"
 
 /**
  * Function _isupper
@@ -21,4 +21,3 @@ int mul(int a, int b);
  * function print_numbers
  */
 void print_numbers(void);
-

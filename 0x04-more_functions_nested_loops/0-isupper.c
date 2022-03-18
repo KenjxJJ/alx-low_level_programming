@@ -6,7 +6,7 @@
  */
 int _isupper(int c)
 {
-	if(c > 64 && c < 91)
+	if((char)c > '9' && (char)c  <'a')
 		return 1;
 	else
 		return 0;
