@@ -1,0 +1,10 @@
+## Exclude following files
+
+##Emacs files
+*~
+
+## Executables
+*.exe
+
+## Main
+[main]
