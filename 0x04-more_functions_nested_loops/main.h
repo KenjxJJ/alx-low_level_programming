@@ -21,3 +21,7 @@ int mul(int a, int b);
  * function print_numbers
  */
 void print_numbers(void);
+
+/* Using _putchar function */
+
+int _putchar(int c);
