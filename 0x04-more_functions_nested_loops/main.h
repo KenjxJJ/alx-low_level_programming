@@ -13,3 +13,10 @@ int _isdigit(int c);
  *
  */
 int mul(int a, int b);
+
+/**
+ *
+ * function print_numbers
+ */
+void print_numbers(void);
+
