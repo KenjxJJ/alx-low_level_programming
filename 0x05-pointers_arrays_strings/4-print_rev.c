@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * re_string - Reverses a string
- * @s - Character Array of string
+ * @s: Character Array of string
  *
  * Return: a string in a reverse
  */
@@ -13,14 +13,14 @@ void print_rev(char *s)
 	i = 0;
 	sum_len = 0;
 
-	while (s[i] != '\0')
+	while (s[i] != '\0'|| s != '')
 	{
 		sum_len++;
 		i++;
 	}
 
 	i = sum_len;
-	while( i >= 0)
+	while (i >= 0)
 	{
 		c = s[--i];
 		_putchar(c);
