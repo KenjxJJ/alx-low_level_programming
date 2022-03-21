@@ -1,6 +1,6 @@
 /**
  * reset_to_98 - Reset to number 98
- * @n - Integer
+ * @n: Integer
  *
  * Return: Nothing
  */
