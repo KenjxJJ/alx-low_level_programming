@@ -14,10 +14,9 @@ void _puts(char *s)
 	i = 0;
 	/* Character from string */
 	c = s[i];
-	while (s[i] != '\0')
+	while (c != '\0')
 	{
 		int su;
-
 		su = _putchar(c);
 		i++;
 	}
