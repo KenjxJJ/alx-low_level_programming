@@ -12,11 +12,10 @@ int _strlen(char *s)
 	i = 0;
 	sum_len = 0;
 
-	while (end != '\0')
+	while (s[i] != '\0')
 	{
-		end  = s[i];
-		i++;
 		sum_len++;
+		i++;
 	}
 	return (sum_len);
 }
