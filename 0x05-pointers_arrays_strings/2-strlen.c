@@ -9,7 +9,6 @@ int _strlen(char *s)
 	char end;
 	int sum_len, i;
 
-	end = '';
 	i = 0;
 	sum_len = 0;
 
