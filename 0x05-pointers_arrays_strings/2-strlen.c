@@ -9,9 +9,13 @@ int _strlen(char *s)
 	char end;
 	int sum_len, i;
 
-	while (&end != '\0')
+	end = '';
+	i = 0;
+	sum_len = 0;
+
+	while (end != '\0')
 	{
-		end = *(s + i);
+		end  = *(s + i);
 		i++;
 		sum_len++;
 	}
