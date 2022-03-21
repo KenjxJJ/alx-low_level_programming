@@ -20,10 +20,9 @@ void print_rev(char *s)
 	}
 
 	i = sum_len;
-	while( i > 0)
+	while( i >= 0)
 	{
-		i--;
-		c = s[i];
+		c = s[--i];
 		_putchar(c);
 	}
 }
