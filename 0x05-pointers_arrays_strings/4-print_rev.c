@@ -13,7 +13,7 @@ void print_rev(char *s)
 	i = 0;
 	sum_len = 0;
 
-	while (s[i] != '\0'|| s != '')
+	while (s[i] != '\0'|| s != ' ')
 	{
 		sum_len++;
 		i++;
