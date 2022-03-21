@@ -8,7 +8,7 @@
 void swap_int(int *a, int *b)
 {
 	/* Temporal holder of one value */
-	int *p;
+	int *p = NULL;
 
 	*p = *b;
 	*b = *a;
