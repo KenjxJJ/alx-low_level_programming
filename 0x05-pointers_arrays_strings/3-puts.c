@@ -16,8 +16,7 @@ void _puts(char *s)
 	c = s[i];
 	while (c != '\0')
 	{
-		int su;
-		su = _putchar(c);
+		_putchar(c);
 		i++;
 	}
 }
