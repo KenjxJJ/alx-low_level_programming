@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - Prints every second char in a string
- * @s: Character Array of string
+ * @str: Character Array of string
  *
  * Return: Always 0
  */
@@ -16,7 +16,7 @@ void puts2(char *str)
 	{
 		while (str[i] != '\0')
 		{
-			if( i % 2 == 0)
+			if (i % 2 == 0)
 			{
 				c = str[i];
 				_putchar(c);
