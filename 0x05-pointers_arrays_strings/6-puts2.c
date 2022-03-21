@@ -7,19 +7,18 @@
  */
 void puts2(char *str)
 {
-	int sum_len, i;
+	int i;
 	char c;
 
 	i = 0;
-	sum_len = 0;
 
-	if (s[i] != ' ')
+	if (str[i] != ' ')
 	{
-		while (s[i] != '\0')
+		while (str[i] != '\0')
 		{
 			if( i % 2 == 0)
 			{
-				c = s[i];
+				c = str[i];
 				_putchar(c);
 			}
 			i++;
