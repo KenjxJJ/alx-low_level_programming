@@ -5,7 +5,7 @@
  *
  * Return: a string in a reverse
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int sum_len, i;
 	char c;
