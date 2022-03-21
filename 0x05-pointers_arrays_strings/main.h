@@ -1,4 +1,3 @@
-#include "_putchar.c"
 
 /* Prototype for putchar function */
 int _putchar(char c)
