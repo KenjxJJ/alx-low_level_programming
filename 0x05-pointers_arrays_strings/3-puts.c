@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  *_ puts - Function that prints a string followed by a new line
  * @s: char array of string pointer
