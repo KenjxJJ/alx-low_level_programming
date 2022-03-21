@@ -1,6 +1,5 @@
-
-/* Prototype for putchar function */
-int _putchar(char c)
+/* Prototype for _ putchar function */
+int _putchar(char c);
 
 
 /* Other function protoypes */
