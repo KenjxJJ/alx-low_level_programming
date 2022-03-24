@@ -8,20 +8,21 @@
 void reverse_array(int *a, int n)
 {
 	int i, j;
-	int b[n];
+	int b[999];
 
-	i = n;
+	i = n-1;
 	j = 0;
-	while (i > 0)
+
+	while (i > -1)
 	{
-		b[j] = a[--i];
-		j++;
-		i--;
+		b[j] = a[i--];
+		j++ ;
 	}
 
-	i=0;
-	while( i < n)
+	i = 0;
+	while (i < n)
 	{
 		a[i] = b[i];
+		i++;
 	}
 }
