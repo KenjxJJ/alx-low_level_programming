@@ -1,0 +1,7 @@
+## Files to exclude
+
+# Emacs
+*~
+
+# Executables
+*.exe
