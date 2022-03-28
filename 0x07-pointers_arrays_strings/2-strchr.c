@@ -9,18 +9,18 @@
  */
 char *_strchr(char *s, char c)
 {
-	char _occ;
+	char _occ[99];
+	int j;
 
 	for (int i = 0; s[i] !='\0'; i++)
 	{
 		if (c == s[i])
 		{
-			_occ = (char)i;
-			break;
+			_occ[j] = s[i];
+			j++;
 		}
 	}
-	if(_occ)
-		return _occ;
-	else
+
+	if (!_occ)
 		return NULL;
 }
